@@ -1,0 +1,21 @@
+This is my first "real" ML project - a "hello world" of sorts. It took me about 8 hours.
+
+---Requirements: ---
+- pytorch
+
+---How to run: ---
+In digit-recog.py, set the right epoch and training folder path.
+
+Run:
+python digit-recog.py
+
+---How to train: ---
+Run:
+python save-load.py
+
+---NN Structure: ---
+Conv2D (3, 3) x32
+Conv2D (3, 3) x64
+Conv2D (3, 3) x64
+Dense x64
+Dense x10
